@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/:path*",
+        "destination": "https://pay0.shop/api/:path*"
+      }
+    ]
+  }
+  
