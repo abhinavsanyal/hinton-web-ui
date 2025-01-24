@@ -50,7 +50,7 @@ const Navbar = () => {
     <header className="flex justify-between items-center px-4 py-3 md:px-8 md:py-4 bg-white shadow-md fixed w-full top-0 z-50">
       <div className="flex items-center space-x-2">
         <img
-          src="/src/assets/logo.png"
+          src="/logo.png"
           alt="Hinton Studios Logo"
           className="h-12 md:h-20 invert"
         />
@@ -506,22 +506,22 @@ const SupportTheMahabharataProject = () => {
                 {
                   title: "AI-Powered Visuals",
                   description: "Next-gen character design",
-                  image: "/src/assets/h-1.png",
+                  image: "/h-1.png",
                 },
                 {
                   title: "Epic Storytelling",
                   description: "Ancient tales reimagined",
-                  image: "/src/assets/h-5.png",
+                  image: "/h-5.png",
                 },
                 {
                   title: "Cultural Heritage",
                   description: "Preserving traditions",
-                  image: "/src/assets/h-3.png",
+                  image: "/h-3.png",
                 },
                 {
                   title: "Innovation",
                   description: "Pushing boundaries",
-                  image: "/src/assets/h-4.jpg",
+                  image: "/h-4.jpg",
                 },
               ].map((card, index) => (
                 <div
